@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #007bff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main Content Styling */
+.sneakers-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sneakers-content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.sneakers-content ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sneakers-content li {
+    margin-bottom: 20px;
+}
+
+.sneakers-content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+.sneakers-content a:hover {
+    color: #007bff;
+}
+
+.sneakers-content img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.sneakers-content img:hover {
+    transform: scale(1.05);
+}
